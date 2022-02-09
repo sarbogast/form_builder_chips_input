@@ -39,6 +39,7 @@ class ChipsInputField<T extends Object> extends FormBuilderField<List<T>> {
                 maxChips: 3, // remove, if you like infinity number of chips
                 initialValue: initialValues ?? [],
                 findSuggestions: findSuggestions,
+                decoration: decoration,
                 onChanged: (data) {
                   state.didChange(data);
                 },
