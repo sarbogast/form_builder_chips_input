@@ -8,15 +8,15 @@ environment:
   flutter: ">=1.17.0"
 
 dependencies:
-  chips_input: ^0.0.6
+  chips_input: ^0.1.0
   flutter:
     sdk: flutter
-  flutter_form_builder: ^7.1.0
+  flutter_form_builder: ^8.0.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^1.0.0
+  flutter_lints: ^2.0.1
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
