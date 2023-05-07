@@ -46,6 +46,7 @@ class ChipsInputField<T extends Object> extends FormBuilderField<List<T>> {
                 },
                 chipBuilder: chipBuilder,
                 suggestionBuilder: suggestionBuilder,
+                enabled: enabled,
               );
             });
 
